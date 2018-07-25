@@ -1,5 +1,41 @@
-.col p{
+.sf-col p{
     text-align: justify;
     color: dimgrey;
     margin: 10px 40px;
+}
+
+@media (min-width: 623px) {
+    .sf-size-btn-2{
+        width: 40%;
+    }
+
+    .sf-head-text{
+        font-size: 64px !important;
+    }
+}
+
+@media (max-width: 624px) and (max-width: 327px){
+    .sf-size-btn-2{
+        width: 80%;
+    }
+
+    .sf-head-text{
+        font-size: 64px !important;
+    }
+}
+
+@media (max-width: 328px){
+    .sf-size-btn-2{
+        width: 100%;
+    }
+
+    .sf-head-text{
+        font-size: 40px !important;
+    }
+}
+
+@media (max-width: 390px) {
+    .sf-h1{
+        font-size: 30px;
+    }
 }

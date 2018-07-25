@@ -30,25 +30,25 @@
 
 <!-- Navbar -->
 <div class="w3-top-1">
-    <div class="w3-bar w3-card w3-left-align w3-large">
+    <div class="w3-bar w3-card w3-left-align w3-large nav-menu">
         <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">SFERA</a>
-        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Функции</a>
-        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Поддержка платформ</a>
-        <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Как работать с приложением</a>
+        <a href="#start" class="w3-bar-item w3-button w3-padding-large w3-white">SFERA</a>
+        <a href="#function" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Функции</a>
+        <a href="#platform" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Поддержка платформ</a>
+        <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Как работать с приложением</a>
     </div>
 
     <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-        <a href="#" class="w3-bar-item w3-button w3-padding-large">Функции</a>
-        <a href="#" class="w3-bar-item w3-button w3-padding-large">Поддержка платформ</a>
-        <a href="#" class="w3-bar-item w3-button w3-padding-large">Как работать с приложением</a>
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large nav-menu">
+        <a href="#function" class="w3-bar-item w3-button w3-padding-large">Функции</a>
+        <a href="#platform" class="w3-bar-item w3-button w3-padding-large">Поддержка платформ</a>
+        <a href="#work" class="w3-bar-item w3-button w3-padding-large">Как работать с приложением</a>
     </div>
 </div>
 
 <!-- Header -->
-<header class="w3-container w3-center" style="padding:128px 16px; background: url('resources/img/header.png') center no-repeat; background-size: cover;">
-    <h1 class="w3-margin w3-jumbo" style="font-weight: 800; color: white">SFERA - Ваши данные в безопасности</h1>
+<header id="start" class="w3-container w3-center" style="padding:128px 16px; background: url('resources/img/header.png') center no-repeat; background-size: cover;">
+    <h1 class="w3-margin sf-head-text" style="font-weight: 800; color: white">SFERA - Ваши данные в безопасности</h1>
     <button class="w3-button w3-my-blue w3-padding-large w3-large w3-margin-top btn">Скачать приложение</button>
 </header>
 
@@ -59,7 +59,7 @@
             <h1 style="text-align: center">SFERA - это решение проблемы анонимности хранения данных в интернете без авторизации в шифрованном виде!</h1>
             <hr>
             <h5 class="w3-padding-32" style="color: dimgrey;">
-                Система позволяет хранить в зашифрованном виде на удаленных облачных серверах SFERA или Ваших облачных хранилищах информацию, сохраняя при этом анонимность её владельца. Получить и расшифровать информацию сможет только обладатель специального ключа-контейнера и пароля. Контейнерами можно пользоваться:
+                Система позволяет хранить в зашифрованном виде на удаленных облачных серверах SFERA или Ваших облачных хранилищах информацию, сохраняя при этом анонимность её владельца. Получить и расшифровать информацию сможет только обладатель специального ключа-контейнера и пароля. Варианты использования контейнера:
                 <ul>
                     <li>в процессе обмена данными</li>
                     <li>для длительного хранения</li>
@@ -86,11 +86,11 @@
     </div>
 </div>
 
-<div class="w3-row-padding w3-padding-64 w3-container">
+<div class="w3-row-padding w3-padding-64 w3-container" id="function">
     <div class="w3-content" style="text-align: center">
             <h1 style="text-align: center">Ключевые особенности</h1>
         <hr style="margin-bottom: 80px">
-        <div class="w3-row col">
+        <div class="w3-row sf-col">
         <div class="w3-half">
             <img src="resources/img/anonymous-computer2.png" style="width: 100px">
             <h4>Анонимность</h4>
@@ -104,7 +104,7 @@
         </div>
         </div>
 
-        <div class="w3-row w3-padding-32 col">
+        <div class="w3-row w3-padding-32 sf-col">
         <div class="w3-third">
             <img src="resources/img/hardcrypto.png" style="width: 100px">
             <h4>Сильная криптография</h4>
@@ -124,23 +124,23 @@
     </div>
     </div>
 
-<div class="w3-row-padding w3-padding-64 w3-container" style="background-color: #d4e2e1">
+<div class="w3-row-padding w3-padding-64 w3-container" style="background-color: #d4e2e1" id="platform">
     <div class="w3-content-big" style="text-align: center">
-        <h1 style="text-align: center">Обеспечение кросплатформенности</h1>
+        <h1 style="text-align: center" class="sf-h1">Обеспечение кросплатформенности</h1>
         <hr style="margin-bottom: 30px">
         <div class="w3-row">
         <div class="w3-col s12" style="background: url('resources/img/Windows_10.png') center no-repeat; background-size: contain; height: 600px">
         </div>
             <div class="w3-row">
             <div class="w3-col s12">
-                <button class="w3-button w3-teal w3-padding-large w3-large w3-margin-top btn" style="width: 40%">Скачать приложение</button>
+                <button class="w3-button w3-teal w3-padding-large w3-large w3-margin-top btn sf-size-btn-2" id="download_add_2">Скачать приложение</button>
             </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="w3-row-padding w3-padding-64 w3-container">
+<div class="w3-row-padding w3-padding-64 w3-container" id="work">
     <div class="w3-content-big" style="text-align: center">
         <h1 style="text-align: center">Как работать с приложением</h1>
         <hr style="margin-bottom: 30px">
@@ -207,6 +207,20 @@
             x.className = x.className.replace(" w3-show", "");
         }
     }
+
+    $(document).ready(function(){
+        $(".nav-menu").on("click","a", function (event) {
+            //отменяем стандартную обработку нажатия по ссылке
+            event.preventDefault();
+            //забираем идентификатор бока с атрибута href
+            var id  = $(this).attr('href'),
+            //узнаем высоту от начала страницы до блока на который ссылается якорь
+            top = $(id).offset().top;
+            //анимируем переход на расстояние - top за 1500 мс
+            $('body,html').animate({scrollTop: top}, 1500);
+        });
+    });
+
 </script>
 
 </body>

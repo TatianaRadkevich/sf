@@ -747,7 +747,7 @@ a {
     display: inline-block !important
 }
 
-@media (max-width: 600px) {
+@media (max-width: 731px) {
     .w3-modal-content {
         margin: 0 10px;
         width: auto !important
@@ -803,7 +803,7 @@ a {
     }
 }
 
-@media (max-width: 992px) and (min-width: 601px) {
+@media (max-width: 992px) and (min-width: 732px) {
     .w3-hide-medium {
         display: none !important
     }
